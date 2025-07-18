@@ -1,6 +1,7 @@
 import './Services.css'; 
 import Footer from '../footer/Footer';
 import { motion } from 'framer-motion';
+import { useEffect } from 'react';
 
 const pageVariants = {
   initial: { opacity: 1, y: 20 },
@@ -9,6 +10,10 @@ const pageVariants = {
 };
 
 const Service = () => {
+  useEffect(() => {
+      document.title = 'Services | Bhaskara Silks';
+    }, []);
+
   return (
     <>
     <motion.div

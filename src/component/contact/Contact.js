@@ -1,6 +1,7 @@
 import './Contact.css'; 
 import Footer from '../footer/Footer';
 import { motion } from 'framer-motion';
+import { useEffect } from 'react';
 
 const pageVariants = {
   initial: { opacity: 1, y: 20 },
@@ -11,6 +12,9 @@ const pageVariants = {
 
 
 const Contact = () => {
+  useEffect(() => {
+      document.title = 'Contact | Bhaskara Silks';
+    }, []);
   return (
     <>
     <motion.div

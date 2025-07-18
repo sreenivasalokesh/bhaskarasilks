@@ -1,5 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 const HeroImage = () => {
+  useEffect(() => {
+      document.title = 'Bhaskara Silks';
+    }, []);
+
   const [isHovered, setIsHovered] = React.useState(false);
 
   return (

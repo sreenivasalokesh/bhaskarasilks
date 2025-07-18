@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './About.css'; 
 import Footer from '../footer/Footer';
 import { motion } from 'framer-motion';
@@ -10,6 +10,10 @@ const pageVariants = {
 };
 
 const About = () => {
+    useEffect(() => {
+    document.title = 'About | Bhaskara Silks';
+  }, []);
+
   return (
     <>
     <motion.div

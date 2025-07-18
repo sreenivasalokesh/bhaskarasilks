@@ -2,6 +2,7 @@ import './Gallery.css';
 import Footer from '../footer/Footer';
 import Masonry from 'react-masonry-css';
 import { motion } from 'framer-motion';
+import { useEffect } from 'react';
 
 const pageVariants = {
   initial: { opacity: 1, y: 20 },
@@ -23,6 +24,9 @@ const images = Array.from({ length: 10 }, (_, i) => ({
 }));
 
 const Gallery = () => {
+  useEffect(() => {
+      document.title = 'Gallery | Bhaskara Silks';
+    }, []);
   return (
     <>
     <motion.div
