@@ -1,0 +1,188 @@
+.aboutcontainer {
+    margin: auto;
+    width: 80%;
+    margin-top: 60px;
+}
+
+.header{
+    /* text-align: center; */
+    font-size: 1.5rem;
+    font-weight: 400;
+    background: linear-gradient(131deg, #722410 0%, #dd9162 100%) !important;
+    padding: 30px;
+    padding-top: 130px;    
+}
+
+.header-content {
+    padding: 25px;
+    padding-left: 180px;
+}
+
+.header-content h1 {
+    color: #fff;
+    margin: 0;
+    font-family: 'Cardo', Georgia, "Times New Roman", serif;
+    font-weight: 500;
+    font-size: 62px;
+    padding-bottom: 10px;
+    border-bottom: #dd9162 1px solid;
+}
+
+.header-content p {
+    color: #fff;
+    margin: 0;
+    font-family: 'Cardo', Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 600px;
+}
+
+.sectionreverse {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+.section-image {
+    width: 50%;
+    height: auto;
+    max-height: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: 
+    linear-gradient(to right, #722410 , #dd9162) 0 0 / 100% 40% no-repeat,
+    linear-gradient(to right, #ffffff, #ffffff) 0 100% / 100% 60% no-repeat;
+}
+
+.section-image-inner {
+    width: 80%;
+    height: 80%;
+    padding-top: 10%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.section-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px 30px;
+}
+
+.section-content h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #722410;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+
+    font-family: 'Cardo', Georgia, "Times New Roman", serif;
+    border-bottom: #dd9162 1px solid;
+}
+
+.section-content p{
+    font-size: 1.2rem;
+    /* font-weight: 700; */
+    line-height: 1.5;
+    font-family: 'Cardo', Georgia, "Times New Roman", serif;
+    text-align: justify;
+}
+
+.highlight {
+  /* font-weight: 800; */
+  font-size: 1.2em;
+  background: linear-gradient(90deg, #722410 , #dd9162);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline; /* or remove this line entirely */
+  line-height: 1.2;
+}
+
+
+.horizontal-section{
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;    
+    gap: 20px;
+    height: 100%;
+}
+
+.horizontal-section-image{
+    width: 100%;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    background: 
+    /* linear-gradient(to right, #722410 , #dd9162) 0 0 / 100% 40% no-repeat,
+    linear-gradient(to right, #722410, #dd9162) 0 100% / 100% 60% no-repeat; */
+    linear-gradient(to right, #722410 , #dd9162) 0 0 / 100% 40% no-repeat,
+    linear-gradient(to right, #ffffff, #ffffff) 0 100% / 100% 60% no-repeat;
+}
+
+.horizontal-section-image-inner {
+    width: 100%;
+    height: 50%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap ;
+}
+
+.horizontal-section-image-inner img {
+    width: 20%;
+    height: 200px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.horizontal-section-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-section-content h2 {
+    padding: 0px 30px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #722410;
+    font-family: 'Cardo', Georgia, "Times New Roman", serif;
+    border-bottom: #dd9162 1px solid;
+    margin-bottom: 10px;
+}
+
+.horizontal-section-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-family: 'Cardo', Georgia, "Times New Roman", serif;
+    text-align: justify;
+}

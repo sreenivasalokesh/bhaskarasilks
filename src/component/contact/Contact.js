@@ -1,0 +1,99 @@
+import './Contact.css'; 
+import Footer from '../footer/Footer';
+import { motion } from 'framer-motion';
+
+const pageVariants = {
+  initial: { opacity: 1, y: 20 },
+  animate: { opacity: 1, y: 0 },
+  exit: { opacity: 0, y: -20 },
+};
+
+
+
+const Contact = () => {
+  return (
+    <>
+    <motion.div
+      variants={pageVariants}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      transition={{ duration: 0.4 }}
+    >
+    <div className='header'>
+      <div className='header-content'>
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you!</p>
+      </div>
+    </div>   
+
+    <div className='body'> 
+
+      <div className='phone-container'>
+        <div className='phone'>
+          <h2>Phone</h2>
+          <p>
+            <span role="img" aria-label="phone" style={{marginRight: '8px'}}>📞</span>
+            <a className ="a-underline" href="tel:+11234567890">+1 (123) 456-7890</a>
+          </p>
+          <p>
+            <span role="img" aria-label="phone" style={{marginRight: '8px'}}>📞</span>
+            <a className ="a-underline"  href="tel:+11234567890">+1 (123) 456-7890</a>
+          </p>
+        </div>
+      </div>
+
+      <div className='email-container'>
+        <div className='email-area'>
+          <h2>Email</h2>
+          <p>
+            <span role="img" aria-label="email" style={{marginRight: '8px'}}>✉️</span>
+            <a className ="a-underline"  href="mailto:contactus@bhaskarasilks.in">contactus@bhaskarasilks.in</a>
+          </p>
+        </div>
+      </div>
+
+      <div className='social-media-container'>
+        <div className='social-media'>
+          <h2>Follow Us</h2>
+          <p>Stay connected with us on social media!</p>
+          <div className="footer-links">
+            <p>
+              <div className="social-links">
+                <a href="https://facebook.com/yourpage" target="_blank" className="social-box fb" rel="noopener noreferrer">
+                  <i className="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://instagram.com/yourpage" target="_blank" className="social-box insta" rel="noopener noreferrer">
+                  <i className="fab fa-instagram"></i>
+                </a>
+                <a href="https://youtube.com/yourchannel" target="_blank" className="social-box yt" rel="noopener noreferrer">
+                  <i className="fab fa-youtube"></i>
+                </a>
+              </div>    
+            </p> 
+          </div>
+        </div>
+      </div>
+
+      <div className='contact-container'>
+        <div className='contact-info'>
+          <h2>Get in Touch</h2>
+          <p>If you have any questions or would like to get in touch, please fill out the form below.</p>
+        </div>       
+      </div>  
+      <form className='contact-form'>
+        <div className='form-name-email'>
+          <input className='form-element name' type='text' placeholder='Name' required />
+          <input  className='form-element email' type='email' placeholder='Email' required/>
+        </div>
+        
+        <textarea className="form-element textarea" placeholder='Please write your message ...' required></textarea>
+        <button type='submit'>Send Message</button>
+      </form>
+    </div> 
+    <Footer/>
+    </motion.div>
+    </>
+  )
+}
+export default Contact;
