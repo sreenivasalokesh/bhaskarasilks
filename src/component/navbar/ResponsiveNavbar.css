@@ -189,6 +189,7 @@
 @media (max-width: 480px) {
   .logo-image {
     width: 300px;
+    padding-right: 13px;
   }
   
   .navbar.shrunk{
