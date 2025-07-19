@@ -292,12 +292,12 @@
 
   .card {
     align-items: center;
-    margin-top: 25rem;
+    margin-top: 10rem;
   }
 
  
   .text{
-    font-size: 38px !important;
+    font-size: 30px !important;
     text-wrap: balance;    
     text-align: start;
   }
@@ -322,22 +322,22 @@
     padding-right: 18px;
     justify-content: flex-end;
     align-items: flex-end;
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .sincecontainer {
     padding-right: 0px;
   }
   .since {
-    font-size: 12px;
+    font-size: 10px;
   }
 
  
 
   .exploreusContainer {
     position: absolute;
-    bottom: 80px !important;
-    right: 65px;
+    bottom: 70px !important;
+    right: 60px;
     font-size: 16px;
   }
 }
