@@ -26,7 +26,7 @@ const About = () => {
     <div className='header'>
       <div className='header-content'>
         <h1>About us</h1>
-        <p>Learn more about our mission, vision, and values.</p>
+        <p>Excited to share what we do and who we are!</p>
       </div>
     </div>
     <div className="aboutcontainer"> 

@@ -53,3 +53,37 @@
     font-size: 24px;
     color: #722410;
 }
+
+
+@media (max-width: 480px) {
+    .header-content {
+        padding: 10px;
+        padding-left: 0px !important;
+    }
+    
+    .header-content h1 {
+        font-size: 50px !important;
+        padding-bottom: 5px;
+    }
+
+    .header-content p{
+        font-size: 20px;
+    }
+
+    .footer{
+        height:400px;
+    }
+
+    .service-container{
+        width: 90%;
+    }
+
+    .service-list{
+        padding: 0px;
+    }
+
+    .service-list ul{
+        padding-left: 0px;
+    }
+    
+}

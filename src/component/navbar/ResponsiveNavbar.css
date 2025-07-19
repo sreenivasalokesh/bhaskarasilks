@@ -190,6 +190,10 @@
   .logo-image {
     width: 300px;
   }
+  
+  .navbar.shrunk{
+    padding-top: 5px;
+  }
 }
 
 @media (min-width: 769px) {

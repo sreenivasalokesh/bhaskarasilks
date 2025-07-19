@@ -186,3 +186,72 @@ img {
     font-family: 'Cardo', Georgia, "Times New Roman", serif;
     text-align: justify;
 }
+
+/* 480px, 768px, 992px, 1200px, 1440px */
+/* 480px: Phones (portrait)
+768px: Phones (landscape) and tablets
+992px: Tablets (landscape) and small laptops
+1200px: Medium laptops
+1440px: Large desktops */
+
+@media (max-width: 1440px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+    .header-content {
+        padding: 10px;
+        padding-left: 0px !important;
+    }
+    
+    .header-content h1 {
+        font-size: 50px !important;
+        padding-bottom: 5px;
+    }
+
+    .header-content p{
+        font-size: 20px;
+    }
+
+    .aboutcontainer{
+        width: 90%;
+    }
+
+    .sections {
+        gap: 80px;
+    }
+    .section {
+        flex-direction: column !important;
+        height: auto;
+        gap: 0px
+    }
+
+    .section-image{
+        width:100%;
+        min-height: 400px;
+    }
+
+    .section-content{
+        width: 90%;
+        padding: 0px 20px;
+        margin-bottom: 10px;
+        align-items: center;
+    }
+    
+    .section-content h2 {
+        font-size: 2.35rem;
+    }
+
+    .footer{
+        height:400px;
+    }
+    
+}

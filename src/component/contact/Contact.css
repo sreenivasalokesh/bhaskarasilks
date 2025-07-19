@@ -186,3 +186,46 @@ a {
     background: #dd9162;
     border-radius: 2px;
 }
+
+@media (max-width: 480px) {
+    .header-content {
+        padding: 10px;
+        padding-left: 0px !important;
+    }
+    
+    .header-content h1 {
+        font-size: 50px !important;
+        padding-bottom: 5px;
+    }
+
+    .header-content p{
+        font-size: 20px;
+    }
+
+    .footer{
+        height:400px;
+    }
+
+    .body {
+        width: 90%;
+    }
+    
+    .phone-container, .social-media-container, .contact-container, .email-container{
+        padding: 10px;
+    }
+    
+    .contact-form{
+        width: 100%;
+        padding: 0px;
+    }
+    
+    .form-name-email{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .name, .email {
+       width: 97%;
+       padding: 10px 0px 10px 10px;
+    }
+}
