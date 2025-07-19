@@ -282,7 +282,7 @@
 }
 
 /* Large phones and phablets */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 540px) {
   /* Plus/Max phones and foldables */
 
   .rightPanel {
