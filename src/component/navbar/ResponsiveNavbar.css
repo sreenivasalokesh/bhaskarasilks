@@ -97,7 +97,7 @@
   left: -100%;
   width: 60%;
   height: 100vh;
-  background-color: #000;
+  background: black;
   color: white;
   z-index: 1200;
   transition: left 0.3s ease-in-out;
@@ -144,7 +144,7 @@
 
 .drawer-nav a {
   text-decoration: none;
-  color: #CEA200;
+  color: rgba(253, 244, 239, 0.6);
   font-size: 22px;
   margin-bottom: 10px;
 }
