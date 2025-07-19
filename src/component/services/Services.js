@@ -26,7 +26,7 @@ const Service = () => {
     <div className='header'>
       <div className='header-content'>
         <h1>Our Services</h1>
-        <p>Learn more about our services.</p>
+        <p>We love to share what we serve.</p>
       </div>      
     </div>
 

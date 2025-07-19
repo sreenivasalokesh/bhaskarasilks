@@ -79,7 +79,7 @@
 }
 
 .hamburger {
-  font-size: 30px;
+  font-size: 32px;
   cursor: pointer;
   color: #cea200;
 }
@@ -95,9 +95,10 @@
   position: fixed;
   top: 0;
   left: -100%;
-  width: 60%;
+  width: 68%;
   height: 100vh;
   background: black;
+  /* background: linear-gradient(131deg, #722410 0%, #dd9162 100%) !important; */
   color: white;
   z-index: 1200;
   transition: left 0.3s ease-in-out;
@@ -188,7 +189,7 @@
 
 @media (max-width: 480px) {
   .logo-image {
-    width: 300px;
+    width: 310px;
     padding-right: 18px;
   }
   
@@ -198,6 +199,10 @@
 
   .navbar.shrunk .logo-image {
     padding-right: 40px;
+  }
+
+  .drawer-nav a{
+    font-size: 25px;
   }
 }
 

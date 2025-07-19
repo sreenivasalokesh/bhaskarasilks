@@ -66,7 +66,17 @@ const ResponsiveNavbar = () => {
 
       <div className={`side-drawer ${menuOpen ? 'open' : ''}`}>
         <div className="drawer-header">
-          <img src="peacock-top-logo.svg" alt="Logo" className="logo-image" />
+          <Link
+              to="/home"
+              onClick={() => {
+                setActiveLink("/home");
+                setNavbarShrunk(false);
+                closeMenu();
+              }}
+              className={activeLink === '/home' ? 'active navlink' : 'navlink'}
+            >
+             <img src="peacock-top-logo.svg" alt="Logo" className="logo-image" />
+            </Link>
           {/* <div className="close-button" onClick={closeMenu}>&times;</div> */}
         </div>
         <nav className="drawer-nav">

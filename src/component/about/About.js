@@ -44,7 +44,11 @@ const About = () => {
 <br/>All designs are created in-house, allowing us to introduce <span class="highlight">Fresh styles</span> regularly while maintaining variety and continuity. <br/>We deliver<span class="highlight"> Fully finished products</span>, ready for sale, and ensure everything reaches on time. <br/>Since we are the manufacturers, we offer <span class="highlight">Competitive pricing</span> that helps our buyers get better value.</p>
           </div>
         </div>
-
+        <div className="dot-separator">  
+          <span>•</span>
+          <span>•</span>
+          <span>•</span>
+        </div>
         <div className="section whatwecare sectionreverse"> 
           <div className="section-image">
             <div className="section-image-inner">
@@ -63,7 +67,11 @@ const About = () => {
 
           </div>
         </div>
-
+      <div className="dot-separator">  
+        <span>•</span>
+        <span>•</span>
+        <span>•</span>
+      </div>
       <div className='horizontal-section'>
 
         <div className="horizontal-section-content">

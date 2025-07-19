@@ -340,3 +340,9 @@
     font-size: 16px;
   }
 }
+
+@media (max-width: 480px) {
+  .exploreusContainer {
+    bottom: 170px !important;
+  }
+}
