@@ -189,11 +189,15 @@
 @media (max-width: 480px) {
   .logo-image {
     width: 300px;
-    padding-right: 13px;
+    padding-right: 18px;
   }
   
   .navbar.shrunk{
     padding-top: 5px;
+  }
+
+  .navbar.shrunk .logo-image {
+    padding-right: 40px;
   }
 }
 

@@ -208,9 +208,6 @@ img {
 }
 @media (max-width: 480px) {
 
-    .logo-image {
-        padding-right: 35px;
-    }
     .header-content {
         padding: 10px;
         padding-left: 0px !important;
