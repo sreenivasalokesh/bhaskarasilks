@@ -1,0 +1,343 @@
+.exploreusContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  cursor: pointer;
+  color: #cea200;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Cardo', Georgia, 'Times New Roman', serif;
+  position: absolute;
+  bottom: 160px;
+  right: 150px;
+}
+
+.exploreusButton {
+  padding: 0.5rem 2rem;
+  border-radius: 0.3rem;
+  background-color: transparent;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  border: 2px solid #cea200;
+}
+
+.exploreusButton:hover {
+  background-color: #cea200;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.exploreusArrow {
+  display: inline-block;
+  transition: transform 0.3s;
+  font-weight: bold;
+}
+
+.exploreusButton:hover .exploreusArrow {
+  transform: translateX(5px);
+}
+
+/* .exploreusArrow:hover {
+  transform: translateX(5px);
+} */
+
+
+.wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(190deg, black 0%, rgba(216, 212, 212, 0) 30%), url('./hero-landscape.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.rightPanel {
+  position: absolute;
+  box-sizing: border-box;
+  right: 0;
+  width: 52vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 0.3rem;
+  margin-top: 1.2rem;
+}
+
+.text {
+  font-family: 'Cardo', Georgia, 'Times New Roman', serif;
+  color: rgba(253, 244, 239, 0.6);
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 1rem;
+  z-index: 2;
+  vertical-align: top;
+}
+
+.firstletter {
+  font-size: 78px;
+  line-height: 1em;
+  display: inline-block;
+  margin-right: -0.1em;
+  color: #cea200;
+  z-index: 2;
+}
+
+.special {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.remainigFirst {
+  border-bottom: 2px solid transparent;
+}
+
+.companycontainer {
+  width: 85%;
+  font-family: 'EB Garamond', serif;
+  color: rgba(253, 244, 239, 0.6);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.3em;
+  z-index: 2;
+  vertical-align: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+}
+
+.subtextcontainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.subtext {
+  display: inline-block;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  border-bottom: 2px solid #cea200;
+}
+
+.sincecontainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.since {
+  font-size: 16px;
+}
+
+/*ipad air mini*/
+@media screen and (max-width: 1180px) {
+  .rightPanel {
+    width: 60vw;
+  }
+
+  .text {
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 1rem;
+    
+  }
+
+  .firstletter {
+    font-size: 73px;
+    line-height: 1em;
+  }
+  
+  .exploreusContainer {
+    bottom: 170px;
+    right: 140px;
+  }
+
+  .exploreusButton {
+    background-color: #cea200;
+    color: white;
+  }
+
+
+}
+
+/* Tablets (landscape & portrait) - like iPads */
+@media screen and (max-width: 1024px) {
+  .rightPanel {
+    width: 95vw !important;
+  }
+  .text {
+    font-size: 38px !important;
+    font-weight: 500;
+    line-height: 1rem;    
+  }
+
+  .firstletter {
+    font-size: 80px !important;
+    line-height: 1em;
+  }
+
+  .card {
+    margin-top: 23rem;
+  }
+
+  .exploreusContainer {
+    bottom: 170px;
+    right: 145px;
+    font-size: 20px;
+  }
+
+  .companycontainer {
+    padding-top: 30px;
+    width: 100%;
+    font-size: 28px;
+  }
+
+  .subtextcontainer {
+    padding-right: 80px;
+    font-size: 28px;
+  
+  }
+
+  .sincecontainer {
+    padding-right: 62px;
+  }
+
+  .since {
+    font-size: 20px;
+  }  
+
+  .text {
+    font-size: 28px;
+  }
+
+  .firstletter {
+    font-size: 60px;
+  }
+
+
+}
+
+/* Mobile Phones (portrait & landscape) */
+@media screen and (max-width: 768px) {
+  .exploreusContainer {
+    position: static;
+    margin-top: 1.5rem;
+    font-size: 18px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .exploreusButton {
+    width: 90%;
+    font-size: 16px;
+    padding: 0.4rem 1.5rem;
+  }
+
+  .text {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .firstletter {
+    font-size: 50px;
+  }
+
+  .companycontainer {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .subtextcontainer, .sincecontainer {
+    justify-content: center;
+  }
+
+  .subtext {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .rightPanel {
+    width: 100vw;
+    padding: 1rem;
+  }
+
+  .card {
+    align-items: center;
+  }
+}
+
+/* Large phones and phablets */
+@media screen and (max-width: 480px) {
+  /* Plus/Max phones and foldables */
+
+  .rightPanel {
+    width: 100vw !important;
+    padding: 1rem;
+  }
+
+  .card {
+    align-items: center;
+    margin-top: 25rem;
+  }
+
+ 
+  .text{
+    font-size: 38px !important;
+    text-wrap: balance;    
+    text-align: start;
+  }
+
+  .first::after {
+    content: "\A";
+    white-space: pre;
+  }
+
+  .third {
+    display: none;
+  }
+
+  .companycontainer{
+    padding-top: 0px;
+    align-items: flex-end;
+    margin-right: 60px;
+
+  }
+
+  .subtextcontainer {
+    padding-right: 18px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 24px;
+  }
+
+  .sincecontainer {
+    padding-right: 0px;
+  }
+  .since {
+    font-size: 12px;
+  }
+
+ 
+
+  .exploreusContainer {
+    position: absolute;
+    bottom: 80px !important;
+    right: 65px;
+    font-size: 16px;
+  }
+}
