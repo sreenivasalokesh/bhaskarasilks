@@ -231,22 +231,27 @@
 
 /* Mobile Phones (portrait & landscape) */
 @media screen and (max-width: 768px) {
+  .card{
+    margin-top: 10rem;
+  }
+
   .exploreusContainer {
-    position: static;
     margin-top: 1.5rem;
     font-size: 18px;
     flex-direction: column;
-    text-align: center;
+    text-align: center;    
+    right: 90px !important;
+    bottom: 180px;
   }
 
   .exploreusButton {
     width: 90%;
-    font-size: 16px;
+    font-size: 25px;
     padding: 0.4rem 1.5rem;
   }
 
   .text {
-    font-size: 22px;
+    font-size: 36px !important;
     text-align: center;
   }
 
@@ -258,7 +263,7 @@
     width: 100%;
     font-size: 16px;
     text-align: center;
-    align-items: center;
+    align-items: flex-end;
   }
 
   .subtextcontainer, .sincecontainer {
@@ -271,12 +276,16 @@
   }
 
   .rightPanel {
-    width: 100vw;
+    width: 100vw !important;
     padding: 1rem;
   }
 
-  .card {
-    align-items: center;
+  .special {
+    justify-content: flex-start;
+  }
+
+  .sincecontainer{
+    padding-right: 0px;
   }
 }
 

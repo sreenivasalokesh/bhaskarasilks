@@ -187,31 +187,30 @@ img {
     text-align: justify;
 }
 
-/* 480px, 768px, 992px, 1200px, 1440px */
-/* 480px: Phones (portrait)
+
+/* 
+480px: Phones (portrait)
 768px: Phones (landscape) and tablets
 992px: Tablets (landscape) and small laptops
 1200px: Medium laptops
-1440px: Large desktops */
+1440px: Large desktops -- may be same as 1200px depending on design
+*/
 
-@media (max-width: 1440px) {
+/* @media (max-width: 1440px) {
 
 }
 @media (max-width: 1200px) {
 
-}
+} */
 @media (max-width: 992px) {
 
 }
-@media (max-width: 768px) {
 
-}
-@media (max-width: 480px) {
-    
 
+@media  (max-width: 834.98px), (max-width: 480px) {
     .header-content {
         padding: 10px;
-        padding-left: 0px !important;
+        padding-left: 30px !important;
     }
     
     .header-content h1 {
@@ -263,6 +262,10 @@ img {
         color: #b4b4b4;
         font-size: 1.5rem;
     }
+   
+}
 
-    
+
+@media (max-width: 768px) {
+
 }

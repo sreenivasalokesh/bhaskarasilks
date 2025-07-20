@@ -187,7 +187,7 @@ a {
     border-radius: 2px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 834.98px), (max-width: 480px) {
     .header-content {
         padding: 10px;
         padding-left: 0px !important;
@@ -225,7 +225,7 @@ a {
     }
 
     .name, .email {
-       width: 97%;
+       width: 98%;
        padding: 10px 0px 10px 10px;
     }
 }

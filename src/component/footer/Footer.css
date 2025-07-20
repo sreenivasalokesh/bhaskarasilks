@@ -85,3 +85,8 @@
 }
 
 
+@media (max-width: 768px) {
+  .footer{
+    height: 360px;
+  }
+}

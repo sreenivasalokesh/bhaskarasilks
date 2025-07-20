@@ -50,11 +50,19 @@
   margin-bottom: 16px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 834.98px), (max-width: 480px) {
   .my-masonry-grid {
     width: 90%;
+    gap: 20px;
   }
   .my-masonry-grid_column{
     padding: 0px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .my-masonry-grid {
+    width: 90%;
   }
 }
