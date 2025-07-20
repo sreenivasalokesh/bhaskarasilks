@@ -232,12 +232,12 @@
 /* Mobile Phones (portrait & landscape) */
 @media screen and (max-width: 768px) {
   .card{
-    margin-top: 10rem;
+    margin-top: clamp(16rem, 60vw, 20rem);
   }
 
   .exploreusContainer {
     margin-top: 1.5rem;
-    font-size: 18px;
+    font-size: clamp(0.9rem, 2vw, 2rem);
     flex-direction: column;
     text-align: center; 
     width: 100%;
@@ -247,17 +247,17 @@
   }
 
   .exploreusButton {
-    font-size: 25px;
+    /* font-size: 25px; */
     padding: 0.4rem 1.5rem;
   }
 
   .text {
-    font-size: 36px !important;
+    font-size: clamp(1.0rem, 4vw, 3rem) !important;
     text-align: center;
   }
 
   .firstletter {
-    font-size: 50px;
+    font-size: clamp(3.0rem, 4vw, 5rem) !important
   }
 
   .companycontainer {

@@ -139,7 +139,7 @@
   padding-top: 1rem;
   justify-content: center;
   align-items: center;
-  gap:30px;
+  gap:clamp(1rem, 3vw, 4rem);
   margin-top: 30px;
 }
 
@@ -175,8 +175,7 @@
 
   
   .hamburger {
-    font-size: 45px;
-    margin-left: 30px;
+    font-size: clamp(1.5rem, 5vw, 3rem);
     flex: 2;
     display: flex;
     align-items: center;
@@ -184,11 +183,11 @@
   }
 
   .logo{
-    margin-right: 105px;
+    /* margin-right: 105px; */
     flex: 8;   
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .logo-container {
@@ -196,14 +195,15 @@
   }
 
   .logo-image {
-    width: 500px;
+    width: clamp(14rem, 60vw, 20rem);
     padding-right: 0%;
+    padding-top: clamp(1rem, 1vw, 2rem);
   }
 
   .mobile-header {
     display: flex;
     justify-content: space-between;
-    padding-top: 60px;
+    /* padding-top: 60px; */
   }
 
   .navbar.shrunk .mobile-header{
@@ -225,11 +225,11 @@
   }
 
   .drawer-nav a{
-    font-size: 32px;
+    font-size: clamp(1rem, 3vw, 4rem);
   }
 
   .drawer-header .navlink img {
-    width: 400px;
+    width: clamp(12rem, 40vw, 14rem);
     margin: auto;
   }
 
