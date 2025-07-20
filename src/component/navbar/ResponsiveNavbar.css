@@ -195,7 +195,7 @@
   }
 
   .logo-image {
-    width: clamp(14rem, 60vw, 20rem);
+    width: clamp(18rem, 60vw, 24rem);
     padding-right: 0%;
     padding-top: clamp(1rem, 1vw, 2rem);
   }
