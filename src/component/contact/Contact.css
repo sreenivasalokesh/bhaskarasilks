@@ -49,7 +49,7 @@
 
 h2{
     padding: 0px 30px;
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     font-weight: 700;
     color: #722410;
     font-family: 'Cardo', Georgia, "Times New Roman", serif;
@@ -187,7 +187,15 @@ a {
     border-radius: 2px;
 }
 
-@media (max-width: 834.98px), (max-width: 480px) {
+ .dot-separator {
+        display: flex;
+        justify-content: center;
+        gap: 1rem; /* spacing between dots */
+        color: #b4b4b4;
+        font-size: 1.5rem;
+    }
+
+@media (max-width: 768px){
     .header-content {
         padding: 10px;
         padding-left: 0px !important;
@@ -207,7 +215,13 @@ a {
     }
 
     .body {
-        width: 90%;
+        width: 100%;
+        display: flex
+;
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 40px;
+        background-color: #f9f9f9;
     }
     
     .phone-container, .social-media-container, .contact-container, .email-container{

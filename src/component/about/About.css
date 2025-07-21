@@ -90,7 +90,7 @@ img {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 0px 30px;
+    /* padding: 0px 30px; */
 }
 
 .section-content h2{
@@ -241,8 +241,8 @@ img {
     }
 
     .section-content{
-        width: 90%;
-        padding: 0px 20px;
+        width: 100%;
+        /* padding: 0px 20px; */
         margin-bottom: 10px;
         align-items: center;
     }

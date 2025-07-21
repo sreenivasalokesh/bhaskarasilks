@@ -47,6 +47,12 @@ const Contact = () => {
         </div>
       </div>
 
+      <div className="dot-separator">  
+          <span>•</span>
+          <span>•</span>
+          <span>•</span>
+      </div>
+        
       <div className='email-container'>
         <div className='email-area'>
           <h2>Email</h2>
@@ -55,6 +61,12 @@ const Contact = () => {
             <a className ="a-underline"  href="mailto:contactus@bhaskarasilks.in">contactus@bhaskarasilks.in</a>
           </p>
         </div>
+      </div>
+
+      <div className="dot-separator">  
+          <span>•</span>
+          <span>•</span>
+          <span>•</span>
       </div>
 
       <div className='social-media-container'>
@@ -77,6 +89,13 @@ const Contact = () => {
             </p> 
           </div>
         </div>
+      </div>
+
+      
+      <div className="dot-separator">  
+          <span>•</span>
+          <span>•</span>
+          <span>•</span>
       </div>
 
       <div className='contact-container'>
