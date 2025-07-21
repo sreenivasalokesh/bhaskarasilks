@@ -10,15 +10,11 @@
   align-items: center;
   margin-top: 2rem;
   cursor: pointer;
-  color: #cea200;
+  color:  white;
   font-size: 24px;
   font-weight: 500;
   font-family: 'Cardo', Georgia, 'Times New Roman', serif;
-  /* position: absolute;
-  bottom: 160px;
-  right: 150px; */
-
-    user-select: none;
+  user-select: none;
   -webkit-tap-highlight-color: transparent;
   cursor: pointer;
 }
@@ -26,7 +22,7 @@
 .exploreusButton {
   padding: 0.5rem 2rem;
   border-radius: 0.3rem;
-  background-color: transparent;
+  background-color: #cea200;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease;
   border: 2px solid #cea200;
