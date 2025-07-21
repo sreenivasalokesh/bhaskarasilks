@@ -15,13 +15,16 @@ const HeroImage = () => {
             <p>Exceptional craftsmanship. Timeless quality. Enduring trust.</p>
            </div>
           <span className='companycontainer'>
-            <span className='subtextcontainer'><span className='subtext'>Bhaskara Silks</span></span>
-            <span className='sincecontainer'><span className='since'>Trusted Saree Manufacturers Since 1975 &nbsp;&nbsp;&nbsp;</span></span>
+            <span className='companycontainerinner'>
+              <span className='subtextcontainer'><span className='subtext'>Bhaskara Silks</span></span>
+              <span className='sincecontainer'><span className='since'>Trusted Saree Manufacturers Since 1975 &nbsp;&nbsp;&nbsp;</span></span>
+              <span className='exploreusContainer'>
+                <a  href="/about"  className='exploreusButton' > Explore Us&nbsp; <span  className='exploreusArrow'> &#8594; </span></a>
+              </span>
+            </span>
           </span>
 
-          <span className='exploreusContainer'>
-            <a  href="/about"  className='exploreusButton' > Explore Us&nbsp; <span  className='exploreusArrow'> &#8594; </span></a>
-          </span>
+          
         </div>
       </div>
     </div>
