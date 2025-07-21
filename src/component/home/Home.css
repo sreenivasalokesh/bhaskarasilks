@@ -1,3 +1,9 @@
+* {
+  user-select: none;
+  -webkit-user-select: none; /* For Safari/Chrome */
+  -ms-user-select: none;     /* For older IE/Edge */
+}
+
 .exploreusContainer {
   display: flex;
   justify-content: center;
@@ -11,6 +17,10 @@
   /* position: absolute;
   bottom: 160px;
   right: 150px; */
+
+    user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
 }
 
 .exploreusButton {
