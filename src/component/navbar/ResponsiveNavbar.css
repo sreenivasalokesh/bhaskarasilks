@@ -37,13 +37,34 @@
 
 .navlink {
   text-decoration: none;
-  color: #cea200;
-  transition: all 0.3s ease;
+  color: white;
+  transition: all 0.8s ease;
 }
 
 .navlink.active {
-  font-weight: bold;
+  font-weight: 500;
   color: #cea200;
+}
+
+.nav-links .navlink {
+  display: inline-block;
+  position: relative;
+  border-bottom: 2px solid transparent; /* keeps layout stable */
+  background-image: linear-gradient(#CEA200, #CEA200);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 0% 0px;
+  transition: background-size 0.3s ease-in-out;
+  padding: 10px;
+}
+
+.nav-links .navlink:hover {
+  padding: 10px;
+  background-size: 100% 1.4px;  
+}
+
+.navlink.active:hover {
+  background-size: 100% 0px; 
 }
 
 .navbar.shrunk {

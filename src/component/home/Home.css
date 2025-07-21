@@ -11,7 +11,7 @@
   margin-top: 1rem;
   cursor: pointer;
   color:  white;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
   font-family: 'Cardo', Georgia, 'Times New Roman', serif;
   user-select: none;
@@ -79,16 +79,16 @@
   justify-content: center;
   flex-direction: column;
   border-radius: 0.3rem;
-  margin-top: 1.2rem;
+  margin-top: 12rem;
 }
 
 .text {
   font-family: 'Cardo', Georgia, 'Times New Roman', serif;
   /* color: rgba(253, 244, 239, 0.6); */
   color: white;
-  font-size: 35px;
+  font-size: 33px;
   font-weight: 500;
-  line-height: 1.8rem;
+  line-height: 2.8rem;
   z-index: 2;
   vertical-align: top;
 }
@@ -114,7 +114,7 @@
 }
 
 .companycontainer {
-  width: 100%;
+  width: 80%;
   font-family: 'EB Garamond', serif;
   /* color: rgba(253, 244, 239, 0.6); */
   color: white;
@@ -126,11 +126,15 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-items: flex-end;
   /* margin-top: 1.5rem; */
 }
 
 .companycontainerinner{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .subtextcontainer {
@@ -241,14 +245,15 @@
 
 } */
 
+.text p::first-letter {
+    font-size: 200%;
+    color: #cea200;
+    /* REMOVE float and margin */
+  }
+
 /* Mobile Phones (portrait & landscape) */
 @media screen and (max-width: 768px) {
-  .text p::first-letter {
-  font-size: 200%;
-  color: #cea200;
-  /* REMOVE float and margin */
-}
-
+ 
   .card{
     margin-top: clamp(12rem, 70vw, 20rem);
   }
@@ -258,8 +263,7 @@
     font-size: clamp(0.9rem, 2vw, 2rem);
     flex-direction: column;
     text-align: center; 
-    width: 100%;
-    
+    width: 100%;    
   }
 
   .exploreusButton {
