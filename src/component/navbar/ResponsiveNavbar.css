@@ -282,7 +282,7 @@
   }
 
   .drawer-nav a{
-    font-size: clamp(1.5rem, 4vw, 5rem)
+    font-size: clamp(1.15rem, 4vw, 5rem)
   }
 
   .drawer-header .navlink img {
