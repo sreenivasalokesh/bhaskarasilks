@@ -193,7 +193,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-left: clamp(-20rem, -10vw, -1rem);
+    margin-left: clamp(-20rem, -13vw, -1rem);
 
     user-select: none;
     -webkit-tap-highlight-color: transparent;
