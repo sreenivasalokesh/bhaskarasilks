@@ -124,7 +124,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
 }
 
 .subtextcontainer {
@@ -248,7 +248,7 @@
   }
 
   .exploreusContainer {
-    margin-top: 1.5rem;
+    /* margin-top: 1.5rem; */
     font-size: clamp(0.9rem, 2vw, 2rem);
     flex-direction: column;
     text-align: center; 
@@ -265,7 +265,7 @@
 
   .text {
     font-size: clamp(1.4rem, 4vw, 3rem) !important;
-    text-align: justify;
+    text-align: center;
     hyphens: auto;
   }
 

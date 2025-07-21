@@ -12,7 +12,7 @@ const HeroImage = () => {
       <div className='rightPanel'>
         <div className='card'>
           <div className='text'>
-            <p>Expertly crafted, with a commitment to quality and a character that endures.</p>
+            <p>Exceptional craftsmanship. Timeless quality. Enduring trust.</p>
            </div>
           <span className='companycontainer'>
             <span className='subtextcontainer'><span className='subtext'>Bhaskara Silks</span></span>
