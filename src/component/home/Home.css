@@ -260,6 +260,7 @@
   .text {
     font-size: clamp(1.4rem, 4vw, 3rem) !important;
     text-align: justify;
+    hyphens: auto;
   }
 
   .firstletter {
