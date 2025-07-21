@@ -250,7 +250,7 @@
 }
 
   .card{
-    margin-top: clamp(16rem, 60vw, 20rem);
+    margin-top: clamp(12rem, 52vw, 20rem);
   }
 
   .exploreusContainer {
