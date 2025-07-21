@@ -84,7 +84,8 @@
 
 .text {
   font-family: 'Cardo', Georgia, 'Times New Roman', serif;
-  color: rgba(253, 244, 239, 0.6);
+  /* color: rgba(253, 244, 239, 0.6); */
+  color: white;
   font-size: 35px;
   font-weight: 500;
   line-height: 1.8rem;
@@ -115,7 +116,8 @@
 .companycontainer {
   width: 100%;
   font-family: 'EB Garamond', serif;
-  color: rgba(253, 244, 239, 0.6);
+  /* color: rgba(253, 244, 239, 0.6); */
+  color: white;
   font-size: 22px;
   font-weight: 500;
   line-height: 1.3em;
@@ -266,7 +268,7 @@
   }
 
   .text {
-    font-size: clamp(1.4rem, 4vw, 3rem) !important;
+    font-size: clamp(1.5rem, 4vw, 3rem) !important;
     text-align: center;
     hyphens: auto;
   }
