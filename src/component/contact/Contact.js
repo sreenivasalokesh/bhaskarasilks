@@ -38,11 +38,15 @@ const Contact = () => {
           <h2>Phone</h2>
           <p>
             <span role="img" aria-label="phone" style={{marginRight: '8px'}}>📞</span>
-            <a className ="a-underline" href="tel:+11234567890">+1 (123) 456-7890</a>
+            <a className ="a-underline" href="tel:+11234567890">+91 8088 7272 73</a>
           </p>
           <p>
             <span role="img" aria-label="phone" style={{marginRight: '8px'}}>📞</span>
-            <a className ="a-underline"  href="tel:+11234567890">+1 (123) 456-7890</a>
+            <a className ="a-underline"  href="tel:+11234567890">+91 9844 1888 97</a>
+          </p>
+          <p>
+            <span role="img" aria-label="phone" style={{marginRight: '8px'}}>📞</span>
+            <a className ="a-underline"  href="tel:+11234567890">+91 9242 3164 68</a>
           </p>
         </div>
       </div>
@@ -58,7 +62,7 @@ const Contact = () => {
           <h2>Email</h2>
           <p>
             <span role="img" aria-label="email" style={{marginRight: '8px'}}>✉️</span>
-            <a className ="a-underline"  href="mailto:contactus@bhaskarasilks.in">contactus@bhaskarasilks.in</a>
+            <a className ="a-underline"  href="mailto:contactus@bhaskarasilks.in">contact@bhaskarasilks.in</a>
           </p>
         </div>
       </div>
@@ -76,13 +80,13 @@ const Contact = () => {
           <div className="footer-links">
             <p>
               <div className="social-links">
-                <a href="https://facebook.com/yourpage" target="_blank" className="social-box fb" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/profile.php?id=61578302682246" target="_blank" className="social-box fb" rel="noopener noreferrer">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="https://instagram.com/yourpage" target="_blank" className="social-box insta" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/bhaskarasilks/" target="_blank" className="social-box insta" rel="noopener noreferrer">
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href="https://youtube.com/yourchannel" target="_blank" className="social-box yt" rel="noopener noreferrer">
+                <a href="https://www.youtube.com/@BhaskaraSilks" target="_blank" className="social-box yt" rel="noopener noreferrer">
                   <i className="fab fa-youtube"></i>
                 </a>
               </div>    
