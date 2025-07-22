@@ -62,7 +62,7 @@ const Contact = () => {
           <h2>Email</h2>
           <p>
             <span role="img" aria-label="email" style={{marginRight: '8px'}}>✉️</span>
-            <a className ="a-underline"  href="mailto:contactus@bhaskarasilks.in">contact@bhaskarasilks.in</a>
+            <a className ="a-underline"  href="mailto:contact@bhaskarasilks.in">contact@bhaskarasilks.in</a>
           </p>
         </div>
       </div>
