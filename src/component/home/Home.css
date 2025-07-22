@@ -91,6 +91,7 @@
   line-height: 2.8rem;
   z-index: 2;
   vertical-align: top;
+  margin-right: 20px;
 }
 
 .firstletter {
@@ -158,92 +159,6 @@
   font-size: 10px;
 }
 
-/*ipad air mini*/
-/* @media screen and (max-width: 1180px) {
-  .rightPanel {
-    width: 60vw;
-  }
-
-  .text {
-    font-size: 33px;
-    font-weight: 500;
-    line-height: 1rem;
-    
-  }
-
-  .firstletter {
-    font-size: 73px;
-    line-height: 1em;
-  }
-  
-  .exploreusContainer {
-    bottom: 170px;
-    right: 140px;
-  }
-
-  .exploreusButton {
-    background-color: #cea200;
-    color: white;
-  }
-
-
-} */
-
-/* Tablets (landscape & portrait) - like iPads */
-/* @media screen and (max-width: 1024px) {
-  .rightPanel {
-    width: 95vw !important;
-  }
-  .text {
-    font-size: 38px !important;
-    font-weight: 500;
-    line-height: 1rem;    
-  }
-
-  .firstletter {
-    font-size: 80px !important;
-    line-height: 1em;
-  }
-
-  .card {
-    margin-top: 23rem;
-  }
-
-  .exploreusContainer {
-    bottom: 170px;
-    right: 145px;
-    font-size: 20px;
-  }
-
-  .companycontainer {
-    padding-top: 30px;
-    width: 100%;
-    font-size: 28px;
-  }
-
-  .subtextcontainer {
-    padding-right: 80px;
-    font-size: 28px;
-  
-  }
-
-  .sincecontainer {
-    padding-right: 62px;
-  }
-
-  .since {
-    font-size: 20px;
-  }  
-
-  .text {
-    font-size: 28px;
-  }
-
-  .firstletter {
-    font-size: 60px;
-  }
-
-} */
 
 .text p::first-letter {
     font-size: 200%;
@@ -254,6 +169,8 @@
 /* @media screen and (min-width: 1024px) {
 
 }   */
+
+
 /* Mobile Phones (portrait & landscape) */
 @media screen and (max-width: 820px) {
  
