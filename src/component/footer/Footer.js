@@ -17,20 +17,19 @@ const Footer = () => {
 
                 
                 <div className="footer-links">
-                    <p>Follow us on 
-                    <div class="social-links">
-                        <a href="https://www.facebook.com/profile.php?id=61578302682246" target="_blank" class="social-box fb">
-                        <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="https://www.instagram.com/bhaskarasilks/" target="_blank" class="social-box insta">
-                        <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="https://www.youtube.com/@BhaskaraSilks" target="_blank" class="social-box yt">
-                        <i class="fab fa-youtube"></i>
-                        </a>
+                    <p>Follow us on </p>     
+                        <div className="social-links">
+                            <a href="https://www.facebook.com/profile.php?id=61578302682246" target="_blank" className="social-box fb">
+                            <i className="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/bhaskarasilks/" target="_blank" className="social-box insta">
+                            <i className="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@BhaskaraSilks" target="_blank" className="social-box yt">
+                            <i className="fab fa-youtube"></i>
+                            </a>
                         </div>    
-                    </p> 
-                      
+                                     
                 </div>     
             </div>
             <div className="footer-copyright">

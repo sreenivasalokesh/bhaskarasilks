@@ -66,3 +66,24 @@
     width: 90%;
   }
 }
+
+.grid-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.grid-item img,
+.grid-item video {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+.grid-item:hover img,
+.grid-item:hover video {
+  transform: scale(1.1);
+}

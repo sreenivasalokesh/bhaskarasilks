@@ -24,6 +24,7 @@
     height: auto;
 }
 
+
 .footer-address p{
     margin-top: 10px;
     font-size: 18px;
@@ -37,6 +38,7 @@
 
 .footer-links {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .social-links {

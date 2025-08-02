@@ -14,9 +14,10 @@ const ResponsiveNavbar = () => {
 
   useEffect(() => {
     const currentPath = location.pathname;
+    console.log('cpath', currentPath);
     setActiveLink(currentPath);
     setNavbarShrunk(
-      ['/about', '/services', '/gallery', '/contact'].includes(currentPath)
+      ['/about', '/services', '/gallery', '/gallery/', '/contact'].includes(currentPath)
     );
 
   }, [location.pathname]);
