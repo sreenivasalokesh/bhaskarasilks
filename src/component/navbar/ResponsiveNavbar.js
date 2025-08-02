@@ -18,7 +18,13 @@ const ResponsiveNavbar = () => {
     setNavbarShrunk(
       ['/about', '/services', '/gallery', '/contact'].includes(currentPath)
     );
+
   }, [location.pathname]);
+
+  const handleOnClick = (path, isNavBarShrink) =>{
+    setActiveLink(path); 
+    setNavbarShrunk(isNavBarShrink);
+  }
 
   return (
     <>
@@ -28,21 +34,14 @@ const ResponsiveNavbar = () => {
             &#9776;
           </div>
           <div className="logo">
-            <Link
-              to="/home"
-              onClick={() => {
-                setActiveLink("/home");
-                setNavbarShrunk(false);
-              }}
-              className={activeLink === '/home' ? 'active navlink' : 'navlink'}
-            >
+            <Link to="/home" onClick={() => handleOnClick("/home", false)} className={activeLink === '/home' ? 'active navlink' : 'navlink'}>
               <img src="golden-log-first-big-letters.svg" alt="Logo" className="logo-image" />
             </Link>
           </div>
         </div>
 
         <div className="logo-container">
-          <div className="logo">
+          <div className="logo box">
             <Link
               to="/home"
               onClick={() => {
@@ -54,12 +53,12 @@ const ResponsiveNavbar = () => {
               <img src="golden-log-first-big-letters-2.svg" alt="Logo" className="logo-image" />
             </Link>
           </div>
-          <div className="nav-links">
-            <Link to="/home" onClick={() => { setActiveLink("/home"); setNavbarShrunk(false); }} className={activeLink === '/home' ? 'active navlink' : 'navlink'}>Home</Link>
-            <Link to="/about" onClick={() => { setActiveLink("/about"); setNavbarShrunk(true); }} className={activeLink === '/about' ? 'active navlink' : 'navlink'}>About</Link>
-            <Link to="/services" onClick={() => { setActiveLink("/services"); setNavbarShrunk(true); }} className={activeLink === '/services' ? 'active navlink' : 'navlink'}>Services</Link>
-            <Link to="/gallery" onClick={() => { setActiveLink("/gallery"); setNavbarShrunk(true); }} className={activeLink === '/gallery' ? 'active navlink' : 'navlink'}>Gallery</Link>
-            <Link to="/contact" onClick={() => { setActiveLink("/contact"); setNavbarShrunk(true); }} className={activeLink === '/contact' ? 'active navlink' : 'navlink'}>Contact</Link>
+          <div className="nav-links  box">
+            <Link to="/home"  onClick={() => handleOnClick("/home", false)} className={activeLink === '/home' ? 'active navlink' : 'navlink'}>Home</Link>
+            <Link to="/about"  onClick={() => handleOnClick("/about", true)} className={activeLink === '/about' ? 'active navlink' : 'navlink'}>About</Link>
+            <Link to="/services" onClick={() => handleOnClick("/services", true)} className={activeLink === '/services' ? 'active navlink' : 'navlink'}>Services</Link>
+            <Link to="/gallery" onClick={() => handleOnClick("/gallery", true)} className={activeLink === '/gallery' ? 'active navlink' : 'navlink'}>Gallery</Link>
+            <Link to="/contact" onClick={() => handleOnClick("/contact", true)} className={activeLink === '/contact' ? 'active navlink' : 'navlink'}>Contact</Link>
           </div>
         </div>
       </nav>
