@@ -9,7 +9,7 @@ const Footer = () => {
                 <img src="/footer-logo-gold.svg" alt="Bhaskara Silks Logo" className="footer-logo" />
                 <div className="footer-address">
                     <p>479, 12th cross, Chaithanyanagara, Doddaballapura, Bengaluru, Karnataka 561203
-                        <br/>Phone: +91 8088 7272 73, +91 9844 1888 97, +91 9242 3164 68
+                        <br/>Phone: +91 8088 7272 73, +91 9988 0404 91, +91 9242 3164 68
                         <br/>Email: <a href="mailto:contact@bhaskarasilks.in" className="a-underline"> contact@bhaskarasilks.in</a>
 
                     </p> 

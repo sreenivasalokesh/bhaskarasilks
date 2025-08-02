@@ -38,15 +38,15 @@ const Contact = () => {
           <h2>Phone</h2>
           <p>
             <span role="img" aria-label="phone" style={{marginRight: '8px'}}>📞</span>
-            <a className ="a-underline" href="tel:+11234567890">+91 8088 7272 73</a>
+            <a className ="a-underline" href="tel:+918088727273">+91 8088 7272 73</a>
           </p>
           <p>
             <span role="img" aria-label="phone" style={{marginRight: '8px'}}>📞</span>
-            <a className ="a-underline"  href="tel:+11234567890">+91 9844 1888 97</a>
+            <a className ="a-underline"  href="tel:+919988040491">+91 9988 0404 91</a>
           </p>
           <p>
             <span role="img" aria-label="phone" style={{marginRight: '8px'}}>📞</span>
-            <a className ="a-underline"  href="tel:+11234567890">+91 9242 3164 68</a>
+            <a className ="a-underline"  href="tel:+919242316468">+91 9242 3164 68</a>
           </p>
         </div>
       </div>
