@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './About.css'; 
 import Footer from '../footer/Footer';
 import { motion } from 'framer-motion';
@@ -9,10 +9,29 @@ const pageVariants = {
   exit: { opacity: 0, y: -20 },
 };
 
+const images = [
+  '/about/warp.png',
+  '/about/design.jpg',
+  '/about/weaving.png',
+  '/about/packaging.png'
+];
+
 const About = () => {
-    useEffect(() => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const goToPrevious = () => {
+    setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
+  };
+
+  const goToNext = () => {
+    setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+  };
+  
+  useEffect(() => {
     document.title = 'About | Bhaskara Silks';
   }, []);
+
+  
 
   return (
     <>
@@ -82,13 +101,27 @@ const About = () => {
         </div>
 
         <div className="horizontal-section-image">
-            <div className="horizontal-section-image-inner">
-              <img src="/about/design.jpg" alt="What We Care" />
-              <img src="/about/warp.png" alt="What We Care" />
-              <img src="/about/weaving.png" alt="What We Care" />
-              <img src="/about/packaging.png" alt="What We Care" />
-            </div>
+          <div className="horizontal-section-image-inner">
+            
+            {images.map((img, index) => (
+              <img
+                key={index}
+                src={img}
+                alt={`Slide ${index}`}
+                className={`carousel-image ${index === currentIndex ? 'active' : 'hidden'}`}
+              />
+            ))}
+          </div>
+
+          {/* Arrows only for small screens */}
+          <div className="carousel-arrows">
+            <button onClick={goToPrevious}>‹</button>
+            <button onClick={goToNext}>›</button>
+          </div>
         </div>
+
+
+             
 
         <div className="horizontal-section-content">                   
             <p>

@@ -267,5 +267,65 @@ img {
 
 
 @media (max-width: 768px) {
+    
 
 }
+
+/* Initially show all images side by side */
+/* .horizontal-section-image-inner img {
+  width: 100%;
+  max-width: 500px;
+  margin: 10px;
+} */
+
+/* Hide all images except active in mobile carousel */
+
+
+
+/* Carousel controls for mobile */
+.carousel-arrows {
+  display: none;
+}
+
+/* Enable carousel only on smaller screens */
+@media (max-width: 768px) {
+    .carousel-image.hidden {
+  display: none;
+}
+
+    .horizontal-section-image {
+        height: auto;
+    }
+
+  .horizontal-section-image-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .carousel-image.active {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+  .carousel-arrows {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .carousel-arrows button {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 15px;
+    color: #333;
+  }
+}
+
