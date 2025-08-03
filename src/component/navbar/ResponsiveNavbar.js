@@ -17,7 +17,7 @@ const ResponsiveNavbar = () => {
     console.log('cpath', currentPath);
     setActiveLink(currentPath);
     setNavbarShrunk(
-      ['/about', '/services', '/gallery', '/gallery/', '/contact'].includes(currentPath)
+      ['/about', '/about/','/services', '/gallery', '/gallery/', '/contact'].includes(currentPath)
     );
 
   }, [location.pathname]);
@@ -55,11 +55,11 @@ const ResponsiveNavbar = () => {
             </Link>
           </div>
           <div className="nav-links  box">
-            <Link to="/home"  onClick={() => handleOnClick("/home", false)} className={activeLink === '/home' ? 'active navlink' : 'navlink'}>Home</Link>
-            <Link to="/about"  onClick={() => handleOnClick("/about", true)} className={activeLink === '/about' ? 'active navlink' : 'navlink'}>About</Link>
-            <Link to="/services" onClick={() => handleOnClick("/services", true)} className={activeLink === '/services' ? 'active navlink' : 'navlink'}>Services</Link>
-            <Link to="/gallery" onClick={() => handleOnClick("/gallery", true)} className={activeLink === '/gallery' ? 'active navlink' : 'navlink'}>Gallery</Link>
-            <Link to="/contact" onClick={() => handleOnClick("/contact", true)} className={activeLink === '/contact' ? 'active navlink' : 'navlink'}>Contact</Link>
+            <Link to="/home"  onClick={() => handleOnClick("/home", false)} className={activeLink.includes('/home') ? 'active navlink' : 'navlink'}>Home</Link>
+            <Link to="/about"  onClick={() => handleOnClick("/about", true)} className={activeLink.includes('/about') ? 'active navlink' : 'navlink'}>About</Link>
+            <Link to="/services" onClick={() => handleOnClick("/services", true)} className={activeLink.includes('/services') ? 'active navlink' : 'navlink'}>Services</Link>
+            <Link to="/gallery" onClick={() => handleOnClick("/gallery", true)} className={activeLink.includes('/gallery') ? 'active navlink' : 'navlink'}>Gallery</Link>
+            <Link to="/contact" onClick={() => handleOnClick("/contact", true)} className={activeLink.includes('/contact') ? 'active navlink' : 'navlink'}>Contact</Link>
           </div>
         </div>
       </nav>

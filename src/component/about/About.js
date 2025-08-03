@@ -41,7 +41,7 @@ const About = () => {
           <div className="section-content">
             <h2>What We Do</h2>
             <p>We focus on the end customer, <span class="highlight">Designing sarees</span> that reflect their needs and preferences. <br/>Our products are primarily made from <span class="highlight">Soft silk or Art silk</span>, offering both beauty and comfort. <br/>We handle<span class="highlight"> Bulk orders</span> with consistency in <span class="highlight">quality</span> and timely delivery.
-<br/>All designs are created in-house, allowing us to introduce <span class="highlight">Fresh styles</span> regularly while maintaining variety and continuity. <br/>We deliver<span class="highlight"> Fully finished products</span>, ready for sale, and ensure everything reaches on time. <br/>Since we are the manufacturers, we offer <span class="highlight">Competitive pricing</span> that helps our buyers get better value.</p>
+<br/>All designs are created in-house, allowing us to introduce <span class="highlight">Fresh styles</span> regularly while maintaining variety and continuity. <br/>We deliver<span class="highlight"> Fully finished products</span>, ready for sale, and ensure everything reaches on time. <br/>Our role as manufacturers allows us to offer <span class='highlight'>value-driven pricing</span> to our customers.</p>
           </div>
         </div>
         <div className="dot-separator">  
@@ -58,10 +58,10 @@ const About = () => {
           <div className="section-content">
             <h2>What We Care</h2>
             
-           <p> Our care values are built on the foundation of the 3 Cs <span class="highlight">Craft, Commitment, and Consistency</span>.
-<br/>We deeply value trust, believing in building long-lasting relationships with our partners and customers.
-<br/>We are committed to delivering high-quality, well-designed products, crafted using top-grade and sustainable materials.
-<br/>Our objective is not just to supply exceptional products, but to do so responsibly, with a focus on sustainability and relationship continuity.
+           <p> Everything we do is guided by the 3 pillars of our value system: <span class='highlight'>Craft, Commitment, and Consistency</span>.
+<br/>We deeply value trust, believing in building <span class='highlight'>long-lasting relationships</span> with our partners and customers.
+<br/>We are committed to delivering <span class='highlight'>high-quality, well-designed</span> products, crafted using top-grade and sustainable materials.
+<br/>Our objective is not just to supply exceptional products, but to do so responsibly, with a focus on <span class='highlight'>sustainability and relationship continuity.</span>
 <br/>We also believe in the power of technology and innovation, and are actively working toward integrating them meaningfully to enhance product design, operations, and customer experience.</p>
 
 
@@ -77,22 +77,24 @@ const About = () => {
         <div className="horizontal-section-content">
             <h2>Our Story</h2>            
             <p> 
-              For over 60 years, our craft has been more than just a profession—it has been our kula kasubu, a sacred lineage of artistry passed down through generations. Our forefathers began their journey as humble weavers in the border villages of Tamil Nadu, eventually making their way to Bengaluru. What started at the loom has grown into a thriving enterprise with our own manufacturing units, a trusted network of suppliers, and dedicated vendors.
+              For over 60 years, our craft has been more than just a profession - a sacred lineage of artistry passed down through generations. Our forefathers began their journey as humble weavers in the border villages of Tamil Nadu, eventually making their way to Bengaluru. What started at the loom has grown into a thriving enterprise with our own manufacturing units, a trusted network of suppliers, and dedicated vendors.
             </p>
         </div>
 
         <div className="horizontal-section-image">
             <div className="horizontal-section-image-inner">
-              <img src="/aboutus-whatwedo.jpg" alt="What We Care" />
-              <img src="/aboutus-whatwedo.jpg" alt="What We Care" />
-              <img src="/aboutus-whatwedo.jpg" alt="What We Care" />
-              <img src="/aboutus-whatwedo.jpg" alt="What We Care" />
+              <img src="/about/design.jpg" alt="What We Care" />
+              <img src="/about/warp.png" alt="What We Care" />
+              <img src="/about/weaving.png" alt="What We Care" />
+              <img src="/about/packaging.png" alt="What We Care" />
             </div>
         </div>
 
         <div className="horizontal-section-content">                   
             <p>
-Today, we specialize in every stage of saree creation—from intricate weaving and thoughtful designing to meticulous quality checks and elegant packaging. It’s a journey rooted in tradition and driven by passion, carrying forward the legacy of silk through time.
+Today, we specialize in every stage of saree creation—from thoughtful designing and intricate weaving to meticulous quality checks and elegant packaging. 
+<br/><br/>It’s a journey rooted in tradition and driven by passion, carrying forward the legacy of silk through time. 
+<br/><br/>We currently supply wholesalers and saree shops in Bengaluru and Andhra Pradesh. We're now looking to expand our service to more regions across Andhra, Tamil Nadu, and Northern India, reaching new partners, valued customers, and trusted retail networks. With great excitement, we look forward to new opportunities — guided by our belief that <span class='highlight'>the finest products deserve to be in the finest hands.</span>
             </p>
         </div>
       </div>

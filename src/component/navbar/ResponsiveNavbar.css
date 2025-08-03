@@ -28,7 +28,7 @@
   width: 90%;
   margin: auto;
   height: 100%;
-  gap: 150px;
+  gap: 50px;
 }
 
 .logo-image {
@@ -221,6 +221,16 @@
 }
 
 
+@media (max-width: 1180px){
+
+  .logo-container{
+    gap: 0px;
+  }
+
+  .nav-links {
+    gap: 25px !important;
+  }
+}
 
 /* === Media Queries === */
 @media (max-width: 932px){
@@ -228,6 +238,7 @@
   padding-top: 0px;
   padding-bottom: 20px;
 }
+
 
   .navbar {
     padding: 0px;
